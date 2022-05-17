@@ -7,6 +7,9 @@
     <meta name="robots" content="all">
 
     <title>Андрей Браун - Веб-разработчик</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -34,6 +37,9 @@
 
         <div class="AboutMe">
             <h3>ОБО МНЕ</h3>
+            <div class="TitleBar">
+                <img src="./img/TitleBar.png" alt="Здесь могла бы быть ваша реклама"><br>
+            </div>
             <div class="Foto">
                 <img src="./img/AboutMeImg.png" alt="Здесь могла бы быть ваша реклама">
             </div>
@@ -46,6 +52,9 @@
 
         <div class="WhatICanDo">
             <h3>ЧТО Я УМЕЮ</h3>
+            <div class="TitleBar">
+                <img src="./img/TitleBar.png" alt="Здесь могла бы быть ваша реклама"><br>
+            </div>
             <div class="NetBook">
                 <img src="./img/NetBook.png" alt="He">
                 <h4>Веб-дизайн</h4>
@@ -70,17 +79,24 @@
 
         <div class="Cases">
             <h3>КЕЙСЫ</h3>
+            <div class="TitleBar">
+                <img src="./img/TitleBar.png" alt="Здесь могла бы быть ваша реклама"><br>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <div class="Screenshot">
-                <img src="./img/Screenshot.png" alt="He">
+                <img src="./img/Screenshot.jpg" alt="He">
             </div>
-            <h4>CLIENT</h4>
-            <h5>Какая-то компания</h5>
-            <h4>WEBSITE</h4>
-            <h5>http://www.somedomain.com</h5>
-            <input type="submit" value="VISIT LIVE SITE">
-            <h4>Название проекта</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Quasi porro facere eos animi ipsam,<br>tenetur modi odit cupiditate</p>
+            <div class="ClientInformation">
+                <h4>CLIENT:</h4>
+                <h5>Какая-то компания</h5>
+                <h4>WEBSITE:</h4>
+                <h5>http://www.somedomain.com</h5>
+                <input type="submit" value="VISIT LIVE SITE">
+            </div>
+            <div class="ProjectName">
+                <h4>Название проекта</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Quasi porro facere eos animi ipsam,<br>tenetur modi odit cupiditate</p>
+            </div>
         </div>
 
         <div class="CostCalculator">
@@ -103,39 +119,45 @@
                 <option value="1" style="color:black">value 1</option>
                 <option value="2" style="color:black">value 2</option>
             </select>
-            <span><br>Сроки 0</span>
-            <span><br>Стоимость 0</span>
+            <img class="PoditogLine" src="./img/PoditogLine.png" alt="He">
+            <span class="SrokiStoimost"><br>Сроки<br><br>Стоимость</span>
+            <span class="Zeros"><br>0<br><br>0</span>
         </div>
 
-        <div class="statisctics">
+        <div class="statistics">
             <h3>НЕМНОГО СТАТИСТИКИ</h3>
             <div class="ImgBar">
                 <img src="./img/TitleBar.png" alt="He">
             </div>
-            <div class="Smile">
-                <img src="./img/Smile.png" alt="He">
-                <h3>120</h3>
-                <p><b>счастливых клиентов</b></p>
-            </div>
-            <div class="Scobe">
-                <img src="./img/Scobe.png" alt="He">
-                <h3>4600</h3>
-                <p><b>часов работы</b></p>
-            </div>
-            <div class="Nice">
-                <img src="./img/Niice.png" alt="He">
-                <h3>340</h3>
-                <p><b>проектов завершено</b></p>
-            </div>
-            <div class="Cup">
-                <img src="./img/Cup.png" alt="He">
-                <h3>23</h3>
-                <p><b>наград получено</b></p>
-            </div>
+            <div class="IconList"><ul>
+                <li>
+                    <img src="./img/Smile.png" alt="He">
+                    <h4>120</h4>
+                    <p><b>счастливых клиентов</b></p>
+                </li>
+                <li>
+                    <img src="./img/Scobe.png" alt="He">
+                    <h4>4600</h4>
+                    <p><b>часов работы</b></p>
+                </li>
+                <li>
+                    <img src="./img/Niice.png" alt="He">
+                    <h4>340</h4>
+                    <p><b>проектов завершено</b></p>
+                </li>
+                <li>
+                    <img src="./img/Cup.png" alt="He">
+                    <h4>23</h4>
+                    <p><b>наград получено</b></p>
+                </li>
+            </ul></div>
         </div>
 
         <div class="Feedback">
             <h3>ОТЗЫВЫ</h3>
+            <div class="TitleBar">
+                <img src="./img/TitleBar.png" alt="Здесь могла бы быть ваша реклама"><br>
+            </div>
             <div class="SmileMan">
                 <img src="./img/SmileMan.png" alt="He">
             </div>
@@ -146,35 +168,55 @@
 
         <div class="Contacts">
             <h3>МОИ КОНТАКТЫ</h3>
-            <div class="ImgBar">
+            <div class="TitleBar">
                 <img src="./img/TitleBar.png" alt="He">
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <div class="Geo">
-                <img src="./img/Geo.png" alt="He">
-                <h4>Санкт-Петербург<br>Невский проект 11</h4>
-            </div>
-            <div class="Mail">
-                <img src="./img/Mail.png" alt="He">
-                <h4>info@companyname.com</h4>
-            </div>
-            <div class="Telephone">
-                <img src="./img/Telephone.png" alt="He">
-                <h4>+7 999 999-99-99</h4>
-            </div>
+            <div class="InfoList"><ul>
+                <li>
+                    <img src="./img/Geo.png" alt="He">
+                    <p>Санкт-Петербург<br>Невский проект 11</p>
+                </li>
+                <li>
+                    <img src="./img/Mail.png" alt="He">
+                    <p>info@companyname.com</p>
+                </li>
+                <li>
+                    <img src="./img/Telephone.png" alt="He">
+                    <p>+7 999 999-99-99</p>
+                </li>
+            </ul></div>
             <h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
             <form action="#">
-                <input type="text" name="Name" placeholder="Имя">
-                <input type="text" name="Email" placeholder="Email">
+                <div class="TextInfo">
+                    <input type="text" class="NameSubmit" name="Name" placeholder="Имя">
+                    <input type="text" class="MailSubmit" name="Email" placeholder="Email">
+                </div>
                 <textarea name="Message" cols="30" rows="10" placeholder="Сообщение"></textarea>
-                <input type="submit" value="Отправить">
+                <div class="InputButton">
+                    <input type="submit" value="Отправить">
+                </div>
             </form>
-            <img class="facebook" src="./img/facebook.png" alt="He">
-            <img class="twitter" src="./img/twit.png" alt="He">
-            <img class="ball" src="./img/ball.png" alt="He">
-            <img class="git" src="./img/cat.png" alt="He">
-            <img class="instagram" src="./img/inst.png" alt="He">
-            <img class="in" src="./img/in.png" alt="He">
+            <!--<div class="Socium"><ul>
+                <li>
+                    <img src="./img/facebook.png" alt="He">
+                </li>
+                <li>
+                    <img src="./img/twit.png" alt="He">
+                </li>
+                <li>
+                    <img src="./img/ball.png" alt="He">
+                </li>
+                <li>
+                    <img src="./img/cat.png" alt="He">
+                </li>
+                <li>
+                    <img src="./img/inst.png" alt="He">
+                </li>
+                <li>
+                    <img src="./img/in.png" alt="He">
+                </li>
+            </ul></div>-->
         </div>
 
         <footer>

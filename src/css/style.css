@@ -1,0 +1,402 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    width:100%;
+    height: 60px;
+    background:#344051;
+}
+
+.logo{
+    color:#fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float:left;
+}
+
+.menu{
+    float:left;
+    padding-left: 432px;
+}
+
+.menu li{
+    float:left;
+    line-height: 60px;
+    color:#fff;
+    margin-right: 40px;
+    font-size:16px;
+    text-transform: uppercase;
+}
+
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background:url(../img/boy.png) 90% 100% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.title__container{
+    float:left;
+    margin: 432px 0px 0px 404px;
+    color:#2c384a;
+    text-align: center;
+}
+
+.title__container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title__container h4{
+    margin-top: 40px;
+    font-size:22px;
+    color:#79818d;
+}
+
+.title__container input{
+    height:40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin:50px 14px 0px 14px;
+}
+/*<!--сделать нормальные пиксели-->*/
+.AboutMe{
+    text-align: center;
+    margin-top: 560px;
+    float:left;
+    width:100%;
+    height:50%;
+    background:#fff;
+}
+
+h3{
+    margin-top: 109px;
+    font-size: 30px;
+    font-weight: bold;
+    color:#2c384a;
+}
+
+.TitleBar{
+    margin-top:31px;
+}
+
+.AboutMe .Foto{
+    margin-top:58px;
+}
+
+.AboutMe p{
+    text-align: left;
+    margin-left: 850px;
+    padding-top:30px;
+    font-size:16px;
+    color: #3f495a;
+}
+
+.AboutMe input{
+    background: url(../img/download.png) no-repeat;
+    background-position: 5%;
+    padding: 0px 16px 0px 30px;
+    margin-top: 40px;
+    height: 35px;
+    text-align:center;
+    border: 2px solid #6d7682;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 15px;
+    
+    font-weight: bold;
+}
+
+.WhatICanDo{
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    float:left;
+    margin-top: 60px;
+    background: url(../img/bgICanDo.jpg) center/cover no-repeat;
+}
+
+.WhatICanDo .NetBook{
+    margin-left:250px;
+}
+
+.NetBook, .Sign, .Rocket, .Grammofon{
+    float: left;
+    margin-top: 108px;
+    padding-left:100px;
+    font-size:16px;
+    color: #3f495a;
+}
+
+.WhatICanDo .NetBook h4, .Sign h4, .Rocket h4, .Grammofon h4{
+    font-size: 20px;
+    color: #d17f22;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.Cases{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    float:left;
+    font-size:15px;
+    color: #3f495a;
+}
+
+.Cases .Screenshot{
+    margin-top: 43px;
+    margin-bottom: 45px;
+}
+
+.Cases h4{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.Cases h5{
+    margin: 10px 0px;
+}
+
+.Cases p{
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.Cases .ClientInformation{
+    float:left;
+    width: 40%;
+    text-align: left;
+    padding-left:690px;
+}
+
+.Cases .ProjectName{
+    text-align: left;
+    float: left;
+    
+}
+
+.Cases input{
+    background-color: #63b5ae;
+    height: 43px;
+    color:#fff;
+    margin-top:10px;
+    padding:0px 46px;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.CostCalculator{
+    width: 100%;
+    float:left;
+    color: #1c2534;
+    font-size: 20px;
+}
+
+.CostCalculator h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.CostCalculator h3{
+    font-size: 25px;
+    margin-top: 50px;
+    padding-left: 790px;
+}
+
+.CostCalculator select{
+    width: 890px;
+    margin-top: 24px;
+    height: 60px;
+    background-color: #eeeeee;
+    margin-left: 790px;
+    font-size: 15px;
+    color: #7d7d7d;
+}
+
+.CostCalculator .PoditogLine{
+    margin-left: 790px;
+    margin-top: 38px;
+}
+
+.SrokiStoimost{
+    font-weight: bold;
+    width:65%;
+    float:left;
+    padding-left: 790px;
+}
+
+.Zeros{
+    font-weight: bold;
+    padding-left: 15px;
+    float:left;
+}
+
+.statistics{
+    margin-top: 154px;
+    width: 100%;
+    height: 50%;
+    float: left;
+    background: url(../img/CoupOfCoffeeBG.jpg) center/cover no-repeat;
+    text-align: center;
+    color: #1c2534;
+    font-size: 20px;
+}
+
+.statistics .ImgBar{
+    margin-top: 34px;
+    margin-bottom: 89px;
+}
+
+.statistics ul{
+    float:left;
+    margin-left: 452px;
+}
+
+.statistics li{
+    float:left;
+    margin-right: 300px;
+    text-transform: uppercase;
+}
+
+.statistics li h4{
+    margin-top: 34px;
+    margin-bottom: 31px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.Feedback{
+    width: 100%;
+    height: 50%;
+    float:left;
+    text-align: center;
+    color: #1c2534;
+    font-size: 16.67px;
+}
+
+.Feedback .SmileMan{
+    margin-top: 58px;
+}
+
+.Feedback p{
+    margin-top: 36px;
+}
+
+.Contacts{
+    width: 100%;
+    height: 900px;
+    float:left;
+    background: url(../img/LastBG.jpg) center/cover no-repeat;
+    font-size: 16.67px;
+    color: #fff;
+    text-align: center;
+}
+
+.Contacts h3{
+    color: #fff;
+}
+
+.Contacts .InfoList{
+    margin-left: 900px;
+    float:left;
+    width: 100%;
+}
+
+.Contacts p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.Contacts .InfoList li{
+    float:left;
+    margin-right: 140px;
+}
+
+.Contacts h4{
+    margin-top: 41px;
+    margin-bottom: 47px;
+    margin-left: 20px;
+    font-size: 20.83px;
+}
+
+.Contacts form{
+    float:left;
+}
+
+.Contacts .NameSubmit{
+    float:left;
+    margin-left:899px;
+    margin-right: 15px;
+}
+
+.Contacts .MailSubmit{
+    float:left;
+    margin-left: 15px;
+}
+
+.Contacts input[type=text]{
+    width:355px;
+    height: 35px;
+    background-color: #d2d6dc;
+    color:#5d5d5e;
+    font-size:16.67px;
+}
+
+.Contacts textarea[name=Message]{
+    float:left;
+    width:740px;
+    margin-left: 899px;
+    margin-top: 17px;
+    background-color: #d2d6dc;
+    color:#5d5d5e;
+    font-size:16.67px;
+    height: 95px;
+}
+
+.Contacts input[type=submit]{
+    margin-left:890px;
+    background: inherit;
+    font-size: 20.83px;
+    color:#fff;
+    border: 2px solid #fff;
+    text-align: center;
+    height: 43px;
+    border-radius: 5px;
+    margin-top: 28px;
+    margin-bottom: 76px;
+    padding:0px 16px;
+}
+
+/*.Contacts .Socium{
+    float:left;
+    width: 100%;
+    margin-left: 1000px;
+}
+
+.Contacts .Socium li{
+    float: left;
+    padding-right: 60px;
+}*/
+
+footer{
+    float:left;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 13.27px;
+    color:#fff;
+    background-color: #354051;
+}
